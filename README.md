@@ -2,7 +2,7 @@
 
 ## Description
 
-
+Password generator using javascript. It is designed to meet the criteria for GT Full-Stack Flex program homework-03.
 
 ## Table of Contents
 
@@ -16,12 +16,15 @@
 
 1. Clone the repository using Github.
 2. Open index.html using your default browser.
+3. Generate password by clicking "Generate Password".
+4. Follow instructions on prompt window.
+5. Password is randomly generated.
 
 ## Usage
 
-[Deployed Password Generator Website]()
+[Deployed Password Generator Website](https://pakmk.github.io/gt-js-password-generator-homework-03/)
 
-![Password Generator Website]()
+![Password Generator Website](./images/passwordgenerator.png)
 
 ## Credits
 
