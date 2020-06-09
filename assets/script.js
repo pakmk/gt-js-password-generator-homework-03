@@ -20,7 +20,7 @@ function generatePassword() {
 
   var numbers = confirm ("Would you like to add numbers?");
   if(numbers){
-    passwordArray = passwordArray.concat(numbersArray)
+    passwordArray = passwordArray.concat(numbersArray) // .concat merges two or more arrays.
   }
   
   var upperCaseAlphabet = confirm ("Would you like to add upper-case letters?");
@@ -43,10 +43,7 @@ function generatePassword() {
 for(var i =0; i <passwordLength; i++) {
   userPassword.push (passwordArray[Math.floor(Math.random() * passwordArray.length)]);
 }
-
-console.log(userPassword);
-
-return userPassword.join("");
+return userPassword.join(""); // .join() returns array as a string. Example .join("+") will add "+" between elements.
 
 }
 
